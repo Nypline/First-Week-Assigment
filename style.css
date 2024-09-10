@@ -1,0 +1,114 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #292524;
+  color: #fafaf9;
+  font-family: "Sono", sans-serif;
+  padding: 5px;
+  font-weight: 400;
+  width: 100%;
+}
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Coiny", sans-serif;
+  line-height: 1;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.Logonexa {
+  margin-left: 625px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.Nexaquantum {
+  border: 3px solid purple;
+  box-sizing: border-box;
+  margin-left: 400px;
+  border-radius: 100px;
+}
+
+.ordernow {
+  border: none;
+  font-family: "Coiny", sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 100px 16px 100px;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 650px;
+}
+.social-media {
+  margin-left: 750px;
+}
+
+.introducelaptop {
+  background-color: orange;
+  border-radius: 16px;
+  text-transform: uppercase;
+  stroke: whitesmoke 5px;
+  border: 3px solid red;
+  box-sizing: border-box;
+  margin-left: 300px;
+}
+
+.article_ {
+  flex-direction: column;
+  align-items: stretch;
+  position: absolute;
+}
+.article {
+  padding: 10px 50px 700px 50px;
+  width: 400px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  margin-left: 950px;
+  margin-top: 320px;
+  background-color: black;
+  border: 3px solid white;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.Main-Article {
+  background-color: black;
+  border: 3px solid white;
+  padding-right: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.Introducing {
+  background-color: black;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+
+.QuantumEdge {
+  background-color: black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+
+.Source {
+  background-color: blue;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+}
+
+.articledown {
+  max-width: 82%;
+}

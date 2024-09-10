@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuantumEdge Laptop Customization</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #f2f2f2;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: #333;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      form {
+        margin-top: 20px;
+      }
+      h3 {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      label {
+        font-size: 16px;
+      }
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 5px;
+      }
+      h1 {
+        margin-right: 900px;
+      }
+      select {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+      select:invalid {
+        color: gray;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"> BACK TO PRODUCT</a>
+      <div>
+        <img
+          src="img/Logo_nexa-removebg-preview.png"
+          alt="nexa-logo"
+          width="150"
+          height="75"
+        />
+        <h1>Choose your QuantumEdge</h1>
+      </div>
+    </nav>
+    <div class="container">
+      <form>
+        <h3>Pick your laptop size:</h3>
+        <input
+          type="radio"
+          id="14inch"
+          name="laptop-size"
+          value="14-INCH"
+          required
+        />
+        <label for="14inch">14 inch</label><br />
+        <input
+          type="radio"
+          id="16inch"
+          name="laptop-size"
+          value="16-INCH"
+          required
+          checked
+        />
+        <label for="16inch">16 inch</label><br />
+        <input
+          type="radio"
+          id="20inch"
+          name="laptop-size"
+          value="20-INCH"
+          required
+        />
+        <label for="20inch">20 inch</label>
+        <h3>Pick your laptop color:</h3>
+        <select name="laptop-color" id="laptop-color">
+          <option value="photon-blue" selected>Photon Blue</option>
+          <option value="nebula-violet">Nebula Violet</option>
+          <option value="saturn-green">Saturn Green</option>
+          <option value="pluto-sky">Pluto Sky</option>
+        </select>
+        <h3>Pick your add-ons:</h3>
+        <div>
+          <input
+            type="checkbox"
+            name="Laptop bag (+ $200)"
+            id="laptop-bag"
+            value="laptop-bag"
+            required
+          />
+          <label for="Laptop bag (+ $200)">Laptop bag (+ $200)</label><br />
+          <input
+            type="checkbox"
+            name="Laptopsleeve (+ $100)"
+            id="Laptop-Sleeve"
+            value="Laptop-Sleeve"
+            required
+          />
+          <label for="Laptopsleeve (+ $100)">Laptopsleeve (+ $100)</label><br />
+          <input
+            type="checkbox"
+            name="Floating laptop stand (+ $300)"
+            id="Laptop-Stand"
+            value="Laptop-Stand"
+            required
+          />
+          <label for="Floating laptop stand (+ $300)"
+            >Floating laptop stand (+ $300)</label
+          ><br />
+          <input
+            type="checkbox"
+            name="ControlGloves (+ $500)"
+            id="Laptop-Gloves"
+            value="Laptop-Gloves"
+            required
+          />
+          <label for="ControlGloves (+ $500)">ControlGloves (+ $500)</label>
+        </div>
+      </form>
+      <nav>
+        <a href="order-2.html"
+          ><button>PROCEED TO DELIVERY INFORMATION</button></a
+        >
+      </nav>
+    </div>
+    <p class="by" style="margin-top: 150px">BY : IZZA</p>
+  </body>
+</html>
